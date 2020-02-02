@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HeaderBox = styled.section`
+const HeaderBox = styled.header`
   box-sizing: border-box;
   width: 100vw;
   height: auto;
@@ -9,6 +9,7 @@ const HeaderBox = styled.section`
   align-items: center;
   justify-content: flex-start;
   padding: 1rem;
+  margin: 0;
 
   h1 {
     font-family: "Alegreya", serif;

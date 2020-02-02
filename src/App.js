@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 
 import Header from "./components/Header/Header";
-
+import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import TechStack from "./components/TechStack/TeckStack";
 import Projects from "./components/Projects/Projects";
@@ -12,6 +12,7 @@ const App = () => {
   return (
     <main>
       <Header />
+      <Navbar />
       <Switch>
         <Route path="/" component={About} exact />
         <Route path="/techStack" component={TechStack} />
