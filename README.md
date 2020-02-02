@@ -6,6 +6,7 @@ Deployed on Netlify at: [jamiecarter.netlify.com](https://jamiecarter.netlify.co
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a3e1189f-adfd-4400-89a7-54272e95c069/deploy-status)](https://app.netlify.com/sites/jamiecarter/deploys)
 [![Build Status](https://travis-ci.com/jc2820/portfolio-2020.svg?branch=master)](https://travis-ci.com/jc2820/portfolio-2020)
+[![codecov](https://codecov.io/gh/jc2820/portfolio-2020/branch/master/graph/badge.svg)](https://codecov.io/gh/jc2820/portfolio-2020)
 
 ---
 
