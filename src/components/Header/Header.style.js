@@ -8,25 +8,28 @@ const HeaderBox = styled.header`
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding: 1rem;
+  padding: 0;
   margin: 0;
-
+  
   h1 {
     font-family: "Playfair Display", serif;
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 400;
     margin: 0;
+    letter-spacing: 0.2rem;
+    color: black;
   }
 
   p {
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
+    color: black;
   }
 
   @media (min-width: 1024px) {
      {
       h1 {
-        font-size: 6rem;
+        font-size: 5rem;
       }
     }
   }
