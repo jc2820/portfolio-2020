@@ -1,19 +1,16 @@
 import styled from "styled-components";
 
-const HeaderBox = styled.header`
+const ErrorBox = styled.section`
   box-sizing: border-box;
   width: 100vw;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
   padding: 1rem;
-  margin: 0;
 
   h1 {
-    font-family: "Playfair Display", serif;
-    font-size: 3rem;
+    font-family: "Alegreya", serif;
     font-weight: 700;
     margin: 0;
   }
@@ -26,10 +23,10 @@ const HeaderBox = styled.header`
   @media (min-width: 1024px) {
      {
       h1 {
-        font-size: 6rem;
+        font-size: 4rem;
       }
     }
   }
 `;
 
-export { HeaderBox };
+export { ErrorBox };
