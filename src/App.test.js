@@ -8,8 +8,12 @@ it('renders the heading in the app page', () => {
   expect(heading).toBeInTheDocument();
 });
 
-// test('', () => {
-//   const { getByText } = render(<App />);
-//   const linkElement = getByText(/learn react/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+it('renders the navbar links', () => {
+  const { getByText } = render(<App />);
+  const aboutLink = getByText(/about me/i);
+  const techStackLink = getByText(/Tech Stack/i);
+  const projectsLink = getByText(/Projects/i)
+  expect(aboutLink).toBeInTheDocument();
+  expect(techStackLink).toBeInTheDocument();
+  expect(projectsLink).toBeInTheDocument();
+});
