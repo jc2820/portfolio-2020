@@ -10,7 +10,7 @@ const HeaderBox = styled.section`
   padding: 1rem;
 
   h1 {
-    font-family: "Alegreya", serif;
+    font-family: "Playfair Display", serif;
     font-size: 3rem;
     font-weight: 700;
     margin: 0;
@@ -24,7 +24,7 @@ const HeaderBox = styled.section`
   @media (min-width: 1024px) {
      {
       h1 {
-        font-size: 9rem;
+        font-size: 6rem;
       }
     }
   }
