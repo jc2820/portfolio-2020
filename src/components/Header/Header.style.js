@@ -13,17 +13,17 @@ const HeaderBox = styled.header`
   
   h1 {
     font-family: "Playfair Display", serif;
+    color: #2B2B31;
     font-size: 2.5rem;
     font-weight: 400;
     margin: 0;
     letter-spacing: 0.2rem;
-    color: black;
   }
 
   p {
     font-family: "Nunito Sans", sans-serif;
+    color: #2B2B31;
     margin: 0;
-    color: black;
   }
 
   @media (min-width: 1024px) {

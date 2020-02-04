@@ -6,7 +6,7 @@ const NavbarBox = styled.nav`
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-bottom: 2px solid black;;
+    border-bottom: 2px solid #2B2B31;
 
     a {
         font-family: "Nunito Sans", sans-serif;
@@ -14,7 +14,7 @@ const NavbarBox = styled.nav`
         color: black;
         text-decoration: none;
         padding: 0.5rem;
-        color: black;
+        color: #2B2B31;
     }
 
 `;
