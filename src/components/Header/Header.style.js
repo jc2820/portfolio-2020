@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const HeaderBox = styled.header`
+  justify-self: flex-start;
   box-sizing: border-box;
   width: 100vw;
   height: auto;

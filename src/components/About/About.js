@@ -1,9 +1,12 @@
 import React from "react";
+import AboutBox from "./AboutBox/AboutBox";
+import * as SC from "./About.style";
 
 const About = () => {
   return (
- 
-      <h1>About</h1>
+    <SC.About>
+      <AboutBox />
+    </SC.About>
   );
 };
 
