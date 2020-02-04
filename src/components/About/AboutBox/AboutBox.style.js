@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 const AboutBox = styled.section`
-display: flex;
-flex-direction: column;
-
+  display: flex;
+  flex-direction: column;
   width: 80vw;
   height: auto;
   padding: 1rem;
@@ -21,9 +20,27 @@ flex-direction: column;
   p {
     font-family: "Nunito Sans", sans-serif;
     color: #2b2b31;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     text-align: justify;
+  }
+
+  @media (min-width: 1024px) {
+     {
+      p {
+        padding: 0rem 1rem 1rem 0rem;
+        margin: 0;
+      }
+    }
   }
 `;
 
-export { AboutBox };
+const Columns = styled.div`
+@media (min-width: 1024px) {
+  {
+    margin-top: 1rem;
+    column-count: 2;
+ }
+}
+`;
+
+export { AboutBox, Columns };

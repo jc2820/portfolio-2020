@@ -5,6 +5,7 @@ const AboutBox = () => {
   return (
     <SC.AboutBox>
       <h2>About Me</h2>
+      <SC.Columns>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor
         est nunc, vitae scelerisque sapien malesuada eget. Aenean condimentum
@@ -28,6 +29,7 @@ const AboutBox = () => {
         lacinia. In magna ligula, sodales pellentesque quam eu, pulvinar euismod
         neque. Nullam posuere
       </p>
+      </SC.Columns>
     </SC.AboutBox>
   );
 };
