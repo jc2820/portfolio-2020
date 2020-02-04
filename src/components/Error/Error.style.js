@@ -13,11 +13,13 @@ const ErrorBox = styled.section`
     font-family: "Alegreya", serif;
     font-weight: 700;
     margin: 0;
+    color: #4E535F;
   }
 
   p {
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
+    color: #4E535F;
   }
 
   @media (min-width: 1024px) {
