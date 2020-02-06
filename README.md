@@ -12,6 +12,8 @@ Deployed on Netlify at: [jamiecarter.netlify.com](https://jamiecarter.netlify.co
 
 ## Available Scripts
 
+Clone this repo and navigate to the project directory...
+
 In the project directory, you can run:
 
 ### `npm start`
