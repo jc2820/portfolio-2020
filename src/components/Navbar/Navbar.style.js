@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const NavbarBox = styled.nav`
-background-color: white;
+  background-color: white;
   width: 100vw;
   height: auto;
   position: sticky;
@@ -9,7 +9,7 @@ background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  border-bottom: 2px solid #2b2b31;
+  border-bottom: 2px solid #4e535f;
 
   a {
     font-family: "Nunito Sans", sans-serif;
@@ -17,7 +17,7 @@ background-color: white;
     color: black;
     text-decoration: none;
     padding: 0.5rem;
-    color: #2b2b31;
+    color: #4e535f;
   }
 `;
 

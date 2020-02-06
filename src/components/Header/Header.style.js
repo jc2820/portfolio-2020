@@ -11,10 +11,10 @@ const HeaderBox = styled.header`
   justify-content: flex-start;
   padding: 0;
   margin: 0;
-  
+
   h1 {
     font-family: "Playfair Display", serif;
-    color: #2B2B31;
+    color: #4e535f;
     font-size: 2.5rem;
     font-weight: 400;
     margin-top: 1.5rem;
@@ -24,7 +24,7 @@ const HeaderBox = styled.header`
 
   p {
     font-family: "Nunito Sans", sans-serif;
-    color: #2B2B31;
+    color: #4e535f;
     margin: 0;
   }
 
