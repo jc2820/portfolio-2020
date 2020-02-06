@@ -6,8 +6,8 @@ const Navbar = () => {
   return (
     <SC.NavbarBox>
       <Link to="/">About me</Link>
-      <Link to="/techStack">Tech Stack</Link>
       <Link to="/projects">Projects</Link>
+      <Link to="/techStack">Tech Stack</Link>
     </SC.NavbarBox>
   );
 };

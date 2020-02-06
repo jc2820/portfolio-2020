@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const HeaderBox = styled.header`
+  justify-self: flex-start;
   box-sizing: border-box;
   width: 100vw;
   height: auto;
@@ -16,7 +17,8 @@ const HeaderBox = styled.header`
     color: #2B2B31;
     font-size: 2.5rem;
     font-weight: 400;
-    margin: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     letter-spacing: 0.2rem;
   }
 

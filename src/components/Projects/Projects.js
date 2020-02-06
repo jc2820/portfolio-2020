@@ -1,9 +1,12 @@
 import React from "react";
+import ProjectsMap from "./ProjectsContainer/ProjectsMap";
+import * as SC from "./Projects.style";
 
 const Projects = () => {
   return (
- 
-      <h1>Projects</h1>
+    <SC.ProjectsContainer>
+      <ProjectsMap />
+    </SC.ProjectsContainer>
   );
 };
 
