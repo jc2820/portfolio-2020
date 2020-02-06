@@ -17,7 +17,8 @@ const HeaderBox = styled.header`
     color: #2B2B31;
     font-size: 2.5rem;
     font-weight: 400;
-    margin: 0;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     letter-spacing: 0.2rem;
   }
 

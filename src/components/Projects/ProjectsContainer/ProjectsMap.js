@@ -9,7 +9,10 @@ const Projects = () => {
         <img src={item.imgSrc} alt="Project thumbnail" />
         <h2>{item.name}</h2>
         <p>{item.description}</p>
-        <SC.StackItem>{item.stack}</SC.StackItem>
+        <SC.StackItem>
+          <SC.Bold>Tech Stack: </SC.Bold>
+          {item.stack}
+        </SC.StackItem>
       </SC.Card>
     );
   });
