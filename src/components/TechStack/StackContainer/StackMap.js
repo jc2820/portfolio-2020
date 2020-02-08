@@ -1,17 +1,10 @@
 import React from "react";
-import {
-  stackFront,
-  stackBack,
-  stackTools,
-  stackDesign
-} from "../../../utils/stackData";
+import { techStack } from "../../../utils/stackData";
 import * as SC from "./StackMap.style";
 
 const StackMap = () => {
-  return projectData.map(item => {
-    return (
-    
-    );
+  return techStack.map(tech => {
+    return <SC.StackImage src={tech.img} alt={tech.imgAlt} />;
   });
 };
 
