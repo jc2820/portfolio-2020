@@ -6,7 +6,7 @@ const ProjectsMap = () => {
   return projectData.map(item => {
     return (
       <SC.Card key={item}>
-        <img src={item.imgSrc} alt="Project thumbnail" />
+        <img src={item.imgSrc} alt={item.imgAlt} />
         <h2>{item.name}</h2>
         <p>{item.description}</p>
         <SC.StackItem>

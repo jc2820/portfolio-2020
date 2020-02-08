@@ -10,13 +10,14 @@ import calculator from "../assets/screengrabs/calculator.png";
 
 const projectData = [
   {
-    name: "Gateway 2 Heritage",
+    name: "Gateway2Heritage",
     description:
       "An image licensing platform for small heritage museums in the UK.",
     stack:
       "ReactJS, React-Router, Styled-Components, Netlify Lambda Functions, Airtable, TravisCI, Codecov, Jest",
     url: "",
     gitUrl: "https://github.com/fac18/t4b-g2h",
+    imgAlt: "A Screengrab of the Gateway2Heritage page",
     imgSrc: placeHolder
   },
   {
@@ -27,6 +28,7 @@ const projectData = [
       "ReactJS, React-Router, Styled-Components, PWA, TravisCI, Codecov, Jest, Netlify",
     url: "https://reduce-reuse-recycle.netlify.com",
     gitUrl: "https://github.com/fac18/recycling-game",
+    imgAlt: "A Screengrab of the Reduce, Reuse, Recycle! game screen",
     imgSrc: rrr
   },
   {
@@ -36,6 +38,7 @@ const projectData = [
     stack: "ReactJS, CSS, TravisCI, Jest, Netlify",
     url: "https://the-game-of-life-1860.netlify.com/",
     gitUrl: "https://github.com/fac18/reactweek-jb",
+    imgAlt: "A Screengrab of The Game of Life board game page",
     imgSrc: gameOfLife
   },
   {
@@ -45,6 +48,7 @@ const projectData = [
       "ExpressJS, Handlebars, PostgreSQL, CSS, TravisCI, Tape, Supertest, Heroku",
     url: "https://jamarad.herokuapp.com/",
     gitUrl: "https://github.com/fac18/week8-denk",
+    imgAlt: "A Screengrab of the Prepper 'biblical preps' page",
     imgSrc: prepper
   },
   {
@@ -55,6 +59,7 @@ const projectData = [
       "HTML, CSS, JavaScript, NodeJS, PostgreSQL, BCrypt, JSONWebToken, TravisCI, Tape, Supertest, Codecov, Heroku",
     url: "https://kgbj-week-7.herokuapp.com/",
     gitUrl: "https://github.com/fac18/kgbj-week-7",
+    imgAlt: "A Screengrab of the Sorting Hat registration form page",
     imgSrc: sortingHat
   },
   {
@@ -64,6 +69,7 @@ const projectData = [
       "HTML, CSS, JavaScript, NodeJS, Coin Gecko API, Tape, Supertest, TravisCI, Codecov, Heroku",
     url: "https://cryptowatch.herokuapp.com/",
     gitUrl: "https://github.com/fac18/week5-famk-backend-api",
+    imgAlt: "A Screengrab of the Cryptowatch app",
     imgSrc: cryptoWatch
   },
   {
@@ -72,6 +78,7 @@ const projectData = [
     stack: "HTML, CSS, JavaScript, NodeJS, Tape, NYC, TravisCI, Heroku",
     url: "https://wtf-wheres-the-food.herokuapp.com/",
     gitUrl: "https://github.com/fac18/week4-cikp-autocomplete",
+    imgAlt: "A Screengrab of the WTF: Where's the food app",
     imgSrc: wtf
   },
   {
@@ -80,6 +87,7 @@ const projectData = [
     stack: "HTML, CSS, JavaScript, Tape, Giphy API, Musicmatch API",
     url: "https://fac18.github.io/week3-cikp-gifsthesia/",
     gitUrl: "https://github.com/jc2820/",
+    imgAlt: "A Screengrab of the Gifsthesia app",
     imgSrc: gifsthesia
   },
   {
@@ -89,6 +97,7 @@ const projectData = [
     stack: "HTML, CSS, JavaScript, Git",
     url: "https://jc2820.github.io/calculator/",
     gitUrl: "https://github.com/jc2820/calculator",
+    imgAlt: "A Screengrab of my calculator app",
     imgSrc: calculator
   }
 ];
