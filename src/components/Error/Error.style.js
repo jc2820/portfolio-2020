@@ -10,8 +10,8 @@ const ErrorBox = styled.section`
   padding: 1rem;
 
   h1 {
-    font-family: "Alegreya", serif;
-    font-weight: 700;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
     margin: 0;
     color: #4E535F;
   }

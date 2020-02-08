@@ -10,7 +10,7 @@ const AboutBox = styled.section`
 
   h2 {
     font-family: "Playfair Display", serif;
-    color: #2b2b31;
+    color: #4e535f;
     font-size: 2.5rem;
     font-weight: 400;
     margin: 0;
@@ -18,10 +18,11 @@ const AboutBox = styled.section`
   }
 
   p {
-    font-family: "Nunito Sans", sans-serif;
-    color: #2b2b31;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #4e535f;
     margin-bottom: 1rem;
     text-align: justify;
+    line-height: 1.5;
   }
 
   @media (min-width: 1024px) {
@@ -35,12 +36,12 @@ const AboutBox = styled.section`
 `;
 
 const Columns = styled.div`
-@media (min-width: 1024px) {
-  {
-    margin-top: 1rem;
-    column-count: 2;
- }
-}
+  @media (min-width: 1024px) {
+     {
+      margin-top: 1rem;
+      column-count: 2;
+    }
+  }
 `;
 
 export { AboutBox, Columns };

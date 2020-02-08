@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const Card = styled.div`
-    margin-top: 2rem;
-    border-bottom: 1px solid #2b2b31;
-    padding: 1rem;
+  margin-top: 2rem;
+  border-bottom: 1px solid #4e535f;
+  padding: 1rem;
 
   img {
     width: 80vw;
@@ -12,14 +12,15 @@ const Card = styled.div`
 
   h2 {
     font-family: "Playfair Display", serif;
-    font-weight: 400;
-    color: #2b2b31;
+    font-weight: 100;
+    color: #4e535f;
   }
 
   p {
-    font-family: "Nunito Sans", sans-serif;
-    color: #2b2b31;
+    font-family: "Josefin Sans", sans-serif;
+    color: #4e535f;
     text-align: justify;
+    line-height: 1.5;
   }
 
   @media (min-width: 1024px) {
@@ -36,15 +37,16 @@ const Card = styled.div`
 `;
 
 const StackItem = styled.p`
-  font-family: "Nunito Sans", sans-serif;
-  color: #2b2b31;
+  font-family: "Josefin Sans", sans-serif;
+  color: #4e535f;
 `;
 
 const Bold = styled.span`
-  font-family: "Nunito Sans", sans-serif;
-  color: #2b2b31;
+  font-family: "Josefin Sans", sans-serif;
+  color: #4e535f;
   font-weight: 700;
   text-align: none;
+  line-height: 1.5;
 `;
 
 export { Card, StackItem, Bold };
