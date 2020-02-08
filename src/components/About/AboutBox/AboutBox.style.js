@@ -18,10 +18,11 @@ const AboutBox = styled.section`
   }
 
   p {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     color: #4e535f;
     margin-bottom: 1rem;
     text-align: justify;
+    line-height: 1.5;
   }
 
   @media (min-width: 1024px) {

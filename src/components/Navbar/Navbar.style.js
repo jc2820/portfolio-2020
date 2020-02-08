@@ -12,12 +12,13 @@ const NavbarBox = styled.nav`
   border-bottom: 2px solid #4e535f;
 
   a {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     margin: 0;
     color: black;
     text-decoration: none;
     padding: 0.5rem;
     color: #4e535f;
+    line-height: 2;
   }
 `;
 

@@ -16,14 +16,14 @@ const HeaderBox = styled.header`
     font-family: "Playfair Display", serif;
     color: #4e535f;
     font-size: 2.5rem;
-    font-weight: 400;
+    font-weight: 100;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     letter-spacing: 0.2rem;
   }
 
   p {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #4e535f;
     margin: 0;
   }

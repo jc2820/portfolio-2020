@@ -1,9 +1,12 @@
 import React from "react";
+import StackMap from "./StackContainer/StackMap";
+import * as SC from "./TechStack.style";
 
 const TechStack = () => {
   return (
- 
-      <h1>Tech Stack</h1>
+    <SC.StackContainer>
+      <StackMap />
+    </SC.StackContainer>
   );
 };
 

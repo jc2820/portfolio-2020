@@ -1,12 +1,12 @@
-import cryptoWatch from "../assets/cryptowatch.png";
-import gameOfLife from "../assets/gameoflife.png";
-import gifsthesia from "../assets/gifsthesia.png";
-import prepper from "../assets/prepper.png";
-import rrr from "../assets/rrr.png";
-import sortingHat from "../assets/sortinghat.png";
-import wtf from "../assets/wtf.png";
-import placeHolder from "../assets/placeholder.png";
-import calculator from "../assets/calculator.png";
+import cryptoWatch from "../assets/screengrabs/cryptowatch.png";
+import gameOfLife from "../assets/screengrabs/gameoflife.png";
+import gifsthesia from "../assets/screengrabs/gifsthesia.png";
+import prepper from "../assets/screengrabs/prepper.png";
+import rrr from "../assets/screengrabs/rrr.png";
+import sortingHat from "../assets/screengrabs/sortinghat.png";
+import wtf from "../assets/screengrabs/wtf.png";
+import placeHolder from "../assets/screengrabs/placeholder.png";
+import calculator from "../assets/screengrabs/calculator.png";
 
 const projectData = [
   {
@@ -59,7 +59,7 @@ const projectData = [
   },
   {
     name: "CryptoWatch",
-    description: "A cryptocurrency converter powered by Coin Gecko API.",
+    description: "A cryptocurrency converter app powered by Coin Gecko API.",
     stack:
       "HTML, CSS, JavaScript, NodeJS, Coin Gecko API, Tape, Supertest, TravisCI, Codecov, Heroku",
     url: "https://cryptowatch.herokuapp.com/",

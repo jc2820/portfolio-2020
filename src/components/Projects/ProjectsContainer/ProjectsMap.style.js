@@ -12,14 +12,15 @@ const Card = styled.div`
 
   h2 {
     font-family: "Playfair Display", serif;
-    font-weight: 400;
+    font-weight: 100;
     color: #4e535f;
   }
 
   p {
-    font-family: "Nunito Sans", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     color: #4e535f;
     text-align: justify;
+    line-height: 1.5;
   }
 
   @media (min-width: 1024px) {
@@ -36,15 +37,16 @@ const Card = styled.div`
 `;
 
 const StackItem = styled.p`
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #4e535f;
 `;
 
 const Bold = styled.span`
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: #4e535f;
   font-weight: 700;
   text-align: none;
+  line-height: 1.5;
 `;
 
 export { Card, StackItem, Bold };

@@ -2,7 +2,7 @@ import React from "react";
 import projectData from "../../../utils/projectData";
 import * as SC from "./ProjectsMap.style";
 
-const Projects = () => {
+const ProjectsMap = () => {
   return projectData.map(item => {
     return (
       <SC.Card key={item}>
@@ -18,4 +18,4 @@ const Projects = () => {
   });
 };
 
-export default Projects;
+export default ProjectsMap;
