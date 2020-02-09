@@ -12,7 +12,7 @@ const projectData = [
   {
     name: "Gateway2Heritage",
     description:
-      "An image licensing platform for small heritage museums in the UK.",
+      "An image licensing platform for small heritage and cultural museums in the UK. Made as part of the Tech for Better programme at Founders and Coders",
     stack:
       "ReactJS, React-Router, Styled-Components, Netlify Lambda Functions, Airtable, TravisCI, Codecov, Jest",
     url: "",
@@ -23,9 +23,9 @@ const projectData = [
   {
     name: "Reduce, Reuse, Recycle!",
     description:
-      "A game app designed to teach kids about recycling and the environment.",
+      "A drag-and-drop game designed to teach kids about recycling and the environment. Made as a student picked project and introduction to prototyping and scrum methodology",
     stack:
-      "ReactJS, React-Router, Styled-Components, PWA, TravisCI, Codecov, Jest, Netlify",
+      "ReactJS, React-Router, Styled-Components, Drag and Drop with touch support, PWA, TravisCI, Codecov, Jest, Netlify",
     url: "https://reduce-reuse-recycle.netlify.com",
     gitUrl: "https://github.com/jc2820/recycling-game",
     imgAlt: "A Screengrab of the Reduce, Reuse, Recycle! game screen",
@@ -34,7 +34,7 @@ const projectData = [
   {
     name: "The Game of Life",
     description:
-      "A reworked version of the original 1860 'Game of Life' board game.",
+      "A reworked version of the original 1860 'Game of Life' boardgame. Made as an introduction to the React framework",
     stack: "ReactJS, CSS, TravisCI, Jest, Netlify",
     url: "https://the-game-of-life-1860.netlify.com/",
     gitUrl: "https://github.com/jc2820/reactweek-jb",
@@ -43,7 +43,8 @@ const projectData = [
   },
   {
     name: "Prepper",
-    description: "An apocolypse prepping hub with tips and advice.",
+    description:
+      "An apocolypse prepping hub where preppers can post and see tips and advice for a range of apocolypses. Made with express and Handlebars.",
     stack:
       "ExpressJS, Handlebars, PostgreSQL, CSS, TravisCI, Tape, Supertest, Heroku",
     url: "https://jamarad.herokuapp.com/",
@@ -54,7 +55,7 @@ const projectData = [
   {
     name: "Sorting Hat",
     description:
-      "A Harry Potter Sorting Hat app with database and authentication.",
+      "A Harry Potter Sorting Hat app with PostgreSQL database, authentication and cookies.",
     stack:
       "HTML, CSS, JavaScript, NodeJS, PostgreSQL, BCrypt, JSONWebToken, TravisCI, Tape, Supertest, Codecov, Heroku",
     url: "https://kgbj-week-7.herokuapp.com/",
@@ -74,7 +75,8 @@ const projectData = [
   },
   {
     name: "WTF: Where's the Food?",
-    description: "Search for a country to reveal their national dish.",
+    description:
+      "Pick a country in the autocomplete search bar to reveal their national dish.",
     stack: "HTML, CSS, JavaScript, NodeJS, Tape, NYC, TravisCI, Heroku",
     url: "https://wtf-wheres-the-food.herokuapp.com/",
     gitUrl: "https://github.com/jc2820/week4-cikp-autocomplete",
@@ -83,7 +85,8 @@ const projectData = [
   },
   {
     name: "Gifsthesia",
-    description: "Guess the song title by analysing the gifs.",
+    description:
+      "Guess the song title by analysing the gifs. An introduction to working with APIs",
     stack: "HTML, CSS, JavaScript, Tape, Giphy API, Musicmatch API",
     url: "https://fac18.github.io/week3-cikp-gifsthesia/",
     gitUrl: "https://github.com/jc2820/week3-cikp-gifsthesia",

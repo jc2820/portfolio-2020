@@ -1,34 +1,49 @@
 import React from "react";
 import * as SC from "./AboutBox.style";
+import { Bold } from "../../../utils/Master.style";
 
 const AboutBox = () => {
   return (
     <SC.AboutBox>
       <h2>About Me</h2>
       <SC.Columns>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tempor
-        est nunc, vitae scelerisque sapien malesuada eget. Aenean condimentum
-        condimentum ligula. Pellentesque habitant morbi tristique senectus et
-        netus et malesuada fames ac turpis egestas. Morbi sagittis, magna ut
-        faucibus facilisis, lacus arcu euismod purus, commodo dignissim felis
-        orci eu augue. Aliquam et pulvinar erat.
-      </p>
-      <p>
-        Praesent sed quam tempus, pretium risus eget, sodales purus. Integer
-        pretium lacus vulputate, pretium ligula eget, tincidunt nunc. Donec
-        lacinia semper ex, at rutrum nisl condimentum id. Vivamus dapibus
-        euismod massa, at feugiat erat porta ac. Donec vel pulvinar est.{" "}
-      </p>
-      <p>
-        Sed iaculis sit amet risus at dictum. Curabitur ac convallis elit. Sed
-        placerat, nunc non varius volutpat, neque enim venenatis urna, quis
-        ultricies eros neque ut dui. Curabitur volutpat mi dui, rutrum aliquet
-        augue aliquam id. Nunc sagittis semper magna, non fringilla lorem
-        pharetra id. Sed dignissim ligula eget dolor lacinia, ac tristique dolor
-        lacinia. In magna ligula, sodales pellentesque quam eu, pulvinar euismod
-        neque. Nullam posuere
-      </p>
+        <p>
+          I am an aspiring web developer and recent graduate of{" "}
+          <Bold>
+            <a href="https://www.foundersandcoders.com/">Founders and Coders</a>
+          </Bold>{" "}
+          (FAC 18). I’m currently looking for dev roles where I can hone
+          the skills I have learned over the past few months, build on them and
+          add new technologies or specialisms to my stack.
+        </p>
+        <p>
+          As a developer I want to build{" "}
+          <Bold>apps that enhance our lives</Bold> rather than replace them, and
+          contribute to a{" "}
+          <Bold>fair and socially conscious online society</Bold>. Working
+          towards our Tech for Better project at FAC has not only been an
+          education in <Bold>agile and Scrum methodologies</Bold> and working
+          with a real product owner, but has also demonstrated how useful even a
+          small app or MVP can be when applied to a good cause.
+        </p>
+        <p>
+          My background before FAC was in visual art - working on my own
+          practice and in various gallery and arts technical roles over the last
+          decade or so. The{" "}
+          <Bold>creative potential of software and web development</Bold> is why
+          I first became interested in moving to a career in tech, and I would
+          love to further explore that relationship in future, particularly in a
+          visual art context.
+        </p>
+        <p>
+          I’m currently really enjoying working with <Bold>React</Bold> and{" "}
+          <Bold>Styled Components</Bold>. They’re a great way to easily make
+          really beautiful front-end apps. Making our student project – a
+          recycling game app into a <Bold>PWA</Bold> was exciting and showed how
+          useful native-like web-apps can be. I’m looking at exploring the{" "}
+          <Bold>Svelte</Bold> framework next and improving my knowledge of{" "}
+          <Bold>computer and web security</Bold> through some online courses.
+        </p>
       </SC.Columns>
     </SC.AboutBox>
   );

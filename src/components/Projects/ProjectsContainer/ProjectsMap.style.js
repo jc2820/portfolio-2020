@@ -21,6 +21,7 @@ const Card = styled.div`
     color: #4e535f;
     text-align: justify;
     line-height: 1.5;
+    margin: 0rem 1rem 1rem 0rem;
   }
 
   a {
@@ -53,7 +54,7 @@ const StackItem = styled.p`
 const LinksBox = styled.div `
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 `;
 
 export { Card, StackItem, LinksBox };
