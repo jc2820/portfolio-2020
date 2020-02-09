@@ -1,6 +1,8 @@
 # Jamie Carter: Portfolio Page
 A web development portfolio by [Jamie](https://github.com/jc2820)
 
+If you are interested in hiring me, or just want to chat, email me at jc2820@hotmail.com
+
 Built with React, react-router and styled components  
 Deployed on Netlify at: [jamiecarter.netlify.com](https://jamiecarter.netlify.com)
 
