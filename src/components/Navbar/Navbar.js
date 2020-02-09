@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <SC.NavbarBox>
       <NavLink to="/" activeStyle={{ textDecoration: "underline" }} exact>
-        About me
+        About/Contact
       </NavLink>
       <NavLink to="/projects" activeStyle={{ textDecoration: "underline" }}>
         Projects

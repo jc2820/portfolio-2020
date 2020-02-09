@@ -4,7 +4,7 @@ import * as SC from "./StackMap.style";
 
 const StackMap = () => {
   return techStack.map(tech => {
-    return <SC.StackImage src={tech.img} alt={tech.imgAlt} />;
+    return <SC.StackImage key={tech.imgAlt} src={tech.img} alt={tech.imgAlt} />;
   });
 };
 

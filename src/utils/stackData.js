@@ -48,14 +48,4 @@ const techStack = [
   { img: premiere, imgAlt: "Adobe Premiere" }
 ];
 
-export { techStack };
-
-// const stackFront = [html, css, javaScript, react,];
-
-// const stackBack = [nodejs, npm, express, handlebars, postgres, airTable];
-
-// const stackTools = [git, github, netlify, heroku, travis, jest, codeCov];
-
-// const stackDesign = [figma, photoshop, illustrator, inDesign, premiere];
-
-// export { stackFront, stackBack, stackTools, stackDesign };
+export { techStack, github };
