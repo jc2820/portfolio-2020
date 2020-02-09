@@ -3,7 +3,7 @@ import styled from "styled-components";
 const ContactsBox = styled.div`
   width: 80vw;
   display: block;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 
   p {
     font-family: "Josefin Sans", sans-serif;
