@@ -16,7 +16,7 @@ const projectData = [
     stack:
       "ReactJS, React-Router, Styled-Components, Netlify Lambda Functions, Airtable, TravisCI, Codecov, Jest",
     url: "",
-    gitUrl: "https://github.com/fac18/t4b-g2h",
+    gitUrl: "https://github.com/jc2820/t4b-g2h",
     imgAlt: "A Screengrab of the Gateway2Heritage page",
     imgSrc: placeHolder
   },
@@ -27,7 +27,7 @@ const projectData = [
     stack:
       "ReactJS, React-Router, Styled-Components, PWA, TravisCI, Codecov, Jest, Netlify",
     url: "https://reduce-reuse-recycle.netlify.com",
-    gitUrl: "https://github.com/fac18/recycling-game",
+    gitUrl: "https://github.com/jc2820/recycling-game",
     imgAlt: "A Screengrab of the Reduce, Reuse, Recycle! game screen",
     imgSrc: rrr
   },
@@ -37,7 +37,7 @@ const projectData = [
       "A reworked version of the original 1860 'Game of Life' board game.",
     stack: "ReactJS, CSS, TravisCI, Jest, Netlify",
     url: "https://the-game-of-life-1860.netlify.com/",
-    gitUrl: "https://github.com/fac18/reactweek-jb",
+    gitUrl: "https://github.com/jc2820/reactweek-jb",
     imgAlt: "A Screengrab of The Game of Life board game page",
     imgSrc: gameOfLife
   },
@@ -47,7 +47,7 @@ const projectData = [
     stack:
       "ExpressJS, Handlebars, PostgreSQL, CSS, TravisCI, Tape, Supertest, Heroku",
     url: "https://jamarad.herokuapp.com/",
-    gitUrl: "https://github.com/fac18/week8-denk",
+    gitUrl: "https://github.com/jc2820/week8-denk",
     imgAlt: "A Screengrab of the Prepper 'biblical preps' page",
     imgSrc: prepper
   },
@@ -58,7 +58,7 @@ const projectData = [
     stack:
       "HTML, CSS, JavaScript, NodeJS, PostgreSQL, BCrypt, JSONWebToken, TravisCI, Tape, Supertest, Codecov, Heroku",
     url: "https://kgbj-week-7.herokuapp.com/",
-    gitUrl: "https://github.com/fac18/kgbj-week-7",
+    gitUrl: "https://github.com/jc2820/kgbj-week-7",
     imgAlt: "A Screengrab of the Sorting Hat registration form page",
     imgSrc: sortingHat
   },
@@ -68,7 +68,7 @@ const projectData = [
     stack:
       "HTML, CSS, JavaScript, NodeJS, Coin Gecko API, Tape, Supertest, TravisCI, Codecov, Heroku",
     url: "https://cryptowatch.herokuapp.com/",
-    gitUrl: "https://github.com/fac18/week5-famk-backend-api",
+    gitUrl: "https://github.com/jc2820/week5-famk-backend-api",
     imgAlt: "A Screengrab of the Cryptowatch app",
     imgSrc: cryptoWatch
   },
@@ -77,7 +77,7 @@ const projectData = [
     description: "Search for a country to reveal their national dish.",
     stack: "HTML, CSS, JavaScript, NodeJS, Tape, NYC, TravisCI, Heroku",
     url: "https://wtf-wheres-the-food.herokuapp.com/",
-    gitUrl: "https://github.com/fac18/week4-cikp-autocomplete",
+    gitUrl: "https://github.com/jc2820/week4-cikp-autocomplete",
     imgAlt: "A Screengrab of the WTF: Where's the food app",
     imgSrc: wtf
   },
@@ -86,7 +86,7 @@ const projectData = [
     description: "Guess the song title by analysing the gifs.",
     stack: "HTML, CSS, JavaScript, Tape, Giphy API, Musicmatch API",
     url: "https://fac18.github.io/week3-cikp-gifsthesia/",
-    gitUrl: "https://github.com/jc2820/",
+    gitUrl: "https://github.com/jc2820/week3-cikp-gifsthesia",
     imgAlt: "A Screengrab of the Gifsthesia app",
     imgSrc: gifsthesia
   },
