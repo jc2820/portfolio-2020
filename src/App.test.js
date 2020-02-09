@@ -10,7 +10,7 @@ it('renders the heading in the app page', () => {
 
 it('renders the navbar links', () => {
   const { getByText } = render(<App />);
-  const aboutLink = getByText(/about me/i);
+  const aboutLink = getByText(/about\/contact/i);
   const techStackLink = getByText(/Tech Stack/i);
   const projectsLink = getByText(/Projects/i)
   expect(aboutLink).toBeInTheDocument();
