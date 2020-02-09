@@ -21,6 +21,16 @@ const Card = styled.div`
     color: #4e535f;
     text-align: justify;
     line-height: 1.5;
+    margin: 0rem 1rem 1rem 0rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #4e535f;
+  }
+
+  a:hover {
+    text-decoration: underline;
   }
 
   @media (min-width: 1024px) {
@@ -41,4 +51,10 @@ const StackItem = styled.p`
   color: #4e535f;
 `;
 
-export { Card, StackItem };
+const LinksBox = styled.div `
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+`;
+
+export { Card, StackItem, LinksBox };
