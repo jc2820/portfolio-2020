@@ -23,29 +23,78 @@ import airTable from "../assets/techstack/airtable.svg";
 import styledComponents from "../assets/techstack/styled-components.svg";
 
 const techStack = [
-  { img: html, imgAlt: "HTML5" },
-  { img: css, imgAlt: "CSS3" },
-  { img: javaScript, imgAlt: "JavaScript" },
-  { img: react, imgAlt: "ReactJS" },
-  { img: styledComponents, imgAlt: "Styled Components" },
-  { img: nodejs, imgAlt: "nodeJS" },
-  { img: npm, imgAlt: "NPM" },
-  { img: express, imgAlt: "expressJS" },
-  { img: handlebars, imgAlt: "Handlebars" },
-  { img: postgres, imgAlt: "PostgreSQL" },
-  { img: airTable, imgAlt: "Airtable" },
-  { img: git, imgAlt: "Git" },
-  { img: github, imgAlt: "Github" },
-  { img: netlify, imgAlt: "Netlify" },
-  { img: heroku, imgAlt: "Heroku" },
-  { img: travis, imgAlt: "Travis CI" },
-  { img: jest, imgAlt: "Jest" },
-  { img: codeCov, imgAlt: "Codecov" },
-  { img: figma, imgAlt: "Figma" },
-  { img: photoshop, imgAlt: "Adobe Photoshop" },
-  { img: illustrator, imgAlt: "Adobe Illustrator" },
-  { img: inDesign, imgAlt: "Adobe InDesign" },
-  { img: premiere, imgAlt: "Adobe Premiere" }
+  {
+    img: html,
+    imgAlt: "HTML5",
+    webSrc: "https://html.spec.whatwg.org/multipage/"
+  },
+  {
+    img: css,
+    imgAlt: "CSS3",
+    webSrc: "https://www.w3.org/Style/CSS/Overview.en.html"
+  },
+  {
+    img: javaScript,
+    imgAlt: "JavaScript",
+    webSrc:
+      "https://www.ecma-international.org/publications/standards/Ecma-262.htm"
+  },
+  { img: react, imgAlt: "ReactJS", webSrc: "https://reactjs.org/" },
+  {
+    img: styledComponents,
+    imgAlt: "Styled Components",
+    webSrc: "https://styled-components.com/"
+  },
+  { img: nodejs, imgAlt: "nodeJS", webSrc: "https://nodejs.org/en/about/" },
+  { img: npm, imgAlt: "NPM", webSrc: "https://www.npmjs.com/" },
+  { img: express, imgAlt: "expressJS", webSrc: "https://expressjs.com/" },
+  {
+    img: handlebars,
+    imgAlt: "Handlebars",
+    webSrc: "https://handlebarsjs.com/guide/"
+  },
+  {
+    img: postgres,
+    imgAlt: "PostgreSQL",
+    webSrc: "https://www.postgresql.org/about/"
+  },
+  { img: airTable, imgAlt: "Airtable", webSrc: "https://airtable.com/product" },
+  { img: git, imgAlt: "Git", webSrc: "https://git-scm.com/" },
+  { img: github, imgAlt: "Github", webSrc: "https://github.com/jc2820" },
+  {
+    img: netlify,
+    imgAlt: "Netlify",
+    webSrc: "https://www.netlify.com/products/"
+  },
+  { img: heroku, imgAlt: "Heroku", webSrc: "https://www.heroku.com/" },
+  { img: travis, imgAlt: "Travis CI", webSrc: "https://travis-ci.com/" },
+  { img: jest, imgAlt: "Jest", webSrc: "https://jestjs.io/" },
+  { img: codeCov, imgAlt: "Codecov", webSrc: "https://codecov.io/" },
+  { img: figma, imgAlt: "Figma", webSrc: "https://www.figma.com/" },
+  {
+    img: photoshop,
+    imgAlt: "Adobe Photoshop",
+    webSrc:
+      "https://www.adobe.com/uk/products/photoshop.html?promoid=RL89NFBP&mv=other"
+  },
+  {
+    img: illustrator,
+    imgAlt: "Adobe Illustrator",
+    webSrc:
+      "https://www.adobe.com/uk/products/illustrator.html?promoid=RYGDN24L&mv=other"
+  },
+  {
+    img: inDesign,
+    imgAlt: "Adobe InDesign",
+    webSrc:
+      "https://www.adobe.com/uk/products/indesign.html?promoid=S36FMXDK&mv=other"
+  },
+  {
+    img: premiere,
+    imgAlt: "Adobe Premiere",
+    webSrc:
+      "https://www.adobe.com/uk/products/premiere.html?promoid=19SCDPSM&mv=other"
+  }
 ];
 
 export { techStack, github };
