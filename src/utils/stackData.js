@@ -21,6 +21,7 @@ import react from "../assets/techstack/react.svg";
 import travis from "../assets/techstack/travis.svg";
 import airTable from "../assets/techstack/airtable.svg";
 import styledComponents from "../assets/techstack/styled-components.svg";
+import sketchUp from "../assets/techstack/sketchup.svg";
 
 const techStack = [
   {
@@ -94,6 +95,11 @@ const techStack = [
     imgAlt: "Adobe Premiere",
     webSrc:
       "https://www.adobe.com/uk/products/premiere.html?promoid=19SCDPSM&mv=other"
+  },
+  {
+    img: sketchUp,
+    imgAlt: "SketchUp",
+    webSrc: "https://www.sketchup.com/"
   }
 ];
 

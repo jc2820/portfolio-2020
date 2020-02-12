@@ -22,7 +22,7 @@ const AboutBox = () => {
           contribute to a{" "}
           <Bold>fair and socially conscious online society</Bold>. Working
           towards our Tech for Better project at FAC has not only been an
-          education in <Bold>agile and Scrum methodologies</Bold> and working
+          education in <Bold>Agile and Scrum methodologies</Bold> and working
           with a real product owner, but has also demonstrated how useful even a
           small app or MVP can be when applied to a good cause.
         </p>
