@@ -4,6 +4,7 @@ import { Bold } from "../../../utils/Master.style";
 import githubLogo from "../../../assets/misc/github-original.svg";
 import pdfLogo from "../../../assets/misc/page-export-pdf.svg";
 import emailLogo from "../../../assets/misc/email-plus.svg";
+import cv from "../../../assets/misc/jamie-carter-cv.pdf";
 
 const Contact = () => {
   return (
@@ -18,7 +19,7 @@ const Contact = () => {
       </SC.ContactItem>
       <SC.ContactItem>
         <SC.CvIcon src={pdfLogo} alt="page or download icon" />
-        <a href="https://github.com/jc2820/cv">
+        <a href={cv} target="_blank" rel="noopener noreferrer">
           <p>
             <Bold>See my CV</Bold>
           </p>
