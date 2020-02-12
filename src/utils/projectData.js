@@ -16,7 +16,7 @@ const projectData = [
     stack:
       "ReactJS, React-Router, Styled-Components, Netlify Lambda Functions, Airtable, TravisCI, Codecov, Jest",
     url: "",
-    gitUrl: "https://github.com/jc2820/t4b-g2h",
+    gitUrl: "https://github.com/fac18/t4b-g2h",
     imgAlt: "A Screengrab of the Gateway2Heritage page",
     imgSrc: placeHolder
   },
