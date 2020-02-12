@@ -11,8 +11,8 @@ const ProjectsMap = () => {
         <a href={item.url}><h2>{item.name}</h2></a>
         <p>{item.description}</p>
         <SC.LinksBox>
-        <a href={item.url}><p><Bold>www</Bold></p></a>
-        <a href={item.gitUrl}><p><Bold>code</Bold></p></a>
+        <a href={item.url}><p><Bold>Live site</Bold></p></a>
+        <a href={item.gitUrl}><p><Bold>Code</Bold></p></a>
         </SC.LinksBox>
         <SC.StackItem>
           <Bold>Tech Stack: </Bold>
