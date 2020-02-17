@@ -1,7 +1,7 @@
 import React from "react";
 import projectData from "../../../utils/projectData";
 import * as SC from "./ProjectsMap.style";
-import { Bold } from "../../../utils/Master.style";
+import { Bold, Justify } from "../../../utils/Master.style";
 
 const ProjectsMap = () => {
   return projectData.map(item => {
@@ -12,20 +12,20 @@ const ProjectsMap = () => {
         </a>
         <a href={item.url}>
           <h2>{item.name}</h2>
-        </a>
-        <p>{item.description}</p>
+        </a>{" "}
         <SC.LinksBox>
           <a href={item.url}>
             <p>
-              <Bold>Live site</Bold>
+              <Bold>Live site /</Bold>
             </p>
-          </a>
+          </a>{" "}
           <a href={item.gitUrl}>
             <p>
-              <Bold>Code</Bold>
+              <Bold>/ Code</Bold>
             </p>
           </a>
         </SC.LinksBox>
+        <Justify>{item.description}</Justify>
         <SC.StackItem>
           <Bold>Tech Stack: </Bold>
           {item.stack}
