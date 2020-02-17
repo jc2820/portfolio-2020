@@ -13,20 +13,18 @@ const ErrorBox = styled.section`
     font-family: "Playfair Display", serif;
     font-weight: 400;
     margin: 0;
-    color: #4E535F;
+    color: #4e535f;
   }
 
   p {
     font-family: "Nunito Sans", sans-serif;
     margin: 0;
-    color: #4E535F;
+    color: #4e535f;
   }
 
   @media (min-width: 1024px) {
-     {
-      h1 {
-        font-size: 4rem;
-      }
+    h1 {
+      font-size: 4rem;
     }
   }
 `;

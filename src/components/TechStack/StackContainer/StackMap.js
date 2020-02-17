@@ -6,7 +6,12 @@ const StackMap = () => {
   return techStack.map(tech => {
     return (
       <a href={tech.webSrc}>
-        <SC.StackImage key={tech.index} src={tech.img} alt={tech.imgAlt} title={tech.imgAlt} />
+        <SC.StackImage
+          key={tech.index}
+          src={tech.img}
+          alt={tech.imgAlt}
+          title={tech.imgAlt}
+        />
       </a>
     );
   });

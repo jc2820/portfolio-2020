@@ -65,7 +65,8 @@ const projectData = [
   },
   {
     name: "CryptoWatch",
-    description: "A cryptocurrency converter app powered by Coin Gecko API with route testing and code coverage.",
+    description:
+      "A cryptocurrency converter app powered by Coin Gecko API with route testing and code coverage.",
     stack:
       "HTML, CSS, JavaScript, Node.js, Coin Gecko API, Tape, Supertest, TravisCI, Codecov, Heroku",
     url: "https://cryptowatch.herokuapp.com/",

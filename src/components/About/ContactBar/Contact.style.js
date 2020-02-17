@@ -24,13 +24,11 @@ const ContactsBox = styled.div`
   }
 
   @media (min-width: 1024px) {
-     {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: center;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
   }
 `;
 

@@ -12,9 +12,9 @@ const AboutBox = () => {
           <Bold>
             <a href="https://www.foundersandcoders.com/">Founders and Coders</a>
           </Bold>{" "}
-          (FAC 18). I’m currently looking for dev roles where I can hone
-          the skills I have learned over the past few months, build on them and
-          add new technologies or specialisms to my stack.
+          (FAC 18). I’m currently looking for dev roles where I can hone the
+          skills I have learned over the past few months, build on them and add
+          new technologies or specialisms to my stack.
         </p>
         <p>
           As a developer I want to build{" "}

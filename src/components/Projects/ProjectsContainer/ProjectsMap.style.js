@@ -37,9 +37,9 @@ const Card = styled.div`
     height: auto;
 
     img {
-    width: 23vw;
-    height: auto;
-  }
+      width: 23vw;
+      height: auto;
+    }
   }
 `;
 

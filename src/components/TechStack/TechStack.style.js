@@ -11,9 +11,7 @@ const StackContainer = styled.section`
   margin-bottom: 2rem;
 
   @media (min-width: 1024px) {
-     {
-      justify-content: flex-start;
-    }
+    justify-content: flex-start;
   }
 `;
 
