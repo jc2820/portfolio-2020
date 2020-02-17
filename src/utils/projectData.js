@@ -12,9 +12,9 @@ const projectData = [
   {
     name: "Gateway2Heritage",
     description:
-      "An image licensing platform for small heritage and cultural museums in the UK. Made as part of the Tech for Better programme at Founders and Coders",
+      "An image licensing platform for small heritage and cultural museums in the UK. Made as part of the Tech for Better programme at Founders and Coders.",
     stack:
-      "ReactJS, React-Router, Styled-Components, Netlify Lambda Functions, Airtable, TravisCI, Codecov, Jest",
+      "React, React-Router, Styled-Components, Netlify Lambda Functions, Airtable, TravisCI, Codecov, Jest",
     url: "",
     gitUrl: "https://github.com/fac18/t4b-g2h",
     imgAlt: "A Screengrab of the Gateway2Heritage page",
@@ -23,9 +23,9 @@ const projectData = [
   {
     name: "Reduce, Reuse, Recycle!",
     description:
-      "A drag-and-drop game designed to teach kids about recycling and the environment. Made as a student picked project and introduction to prototyping and scrum methodology",
+      "A drag-and-drop game designed to teach kids about recycling and the environment. Made as a student selected project and introduction to prototyping and Scrum methodology.",
     stack:
-      "ReactJS, React-Router, Styled-Components, Drag and Drop with touch support, PWA, TravisCI, Codecov, Jest, Netlify",
+      "React, React-Router, Styled-Components, Drag and Drop with touch support, PWA, TravisCI, Codecov, Jest, Netlify",
     url: "https://reduce-reuse-recycle.netlify.com",
     gitUrl: "https://github.com/jc2820/recycling-game",
     imgAlt: "A Screengrab of the Reduce, Reuse, Recycle! game screen",
@@ -34,8 +34,8 @@ const projectData = [
   {
     name: "The Game of Life",
     description:
-      "A reworked version of the original 1860 'Game of Life' boardgame. Made as an introduction to the React framework",
-    stack: "ReactJS, CSS, TravisCI, Jest, Netlify",
+      "A reworked version of the original 1860 'Game of Life' boardgame. An introduction to React's framework, hooks and testing and use of Github's API.",
+    stack: "React, CSS, TravisCI, Jest, Netlify",
     url: "https://the-game-of-life-1860.netlify.com/",
     gitUrl: "https://github.com/jc2820/reactweek-jb",
     imgAlt: "A Screengrab of The Game of Life board game page",
@@ -44,9 +44,9 @@ const projectData = [
   {
     name: "Prepper",
     description:
-      "An apocolypse prepping hub where preppers can post and see tips and advice for a range of apocolypses. Made with express and Handlebars.",
+      "An apocolypse prepping hub where preppers can post and see tips for a range of apocolypses. Made with express and Handlebars.",
     stack:
-      "ExpressJS, Handlebars, PostgreSQL, CSS, TravisCI, Tape, Supertest, Heroku",
+      "express, Handlebars, PostgreSQL, CSS, TravisCI, Tape, Supertest, Heroku",
     url: "https://jamarad.herokuapp.com/",
     gitUrl: "https://github.com/jc2820/week8-denk",
     imgAlt: "A Screengrab of the Prepper 'biblical preps' page",
@@ -55,9 +55,9 @@ const projectData = [
   {
     name: "Sorting Hat",
     description:
-      "A Harry Potter Sorting Hat app with PostgreSQL database, authentication and cookies.",
+      "A Harry Potter Sorting Hat app with PostgreSQL database, cookies and authentication.",
     stack:
-      "HTML, CSS, JavaScript, NodeJS, PostgreSQL, BCrypt, JSONWebToken, TravisCI, Tape, Supertest, Codecov, Heroku",
+      "HTML, CSS, JavaScript, Node.js, PostgreSQL, BCrypt, JSONWebToken, TravisCI, Tape, Supertest, Codecov, Heroku",
     url: "https://kgbj-week-7.herokuapp.com/",
     gitUrl: "https://github.com/jc2820/kgbj-week-7",
     imgAlt: "A Screengrab of the Sorting Hat registration form page",
@@ -65,9 +65,9 @@ const projectData = [
   },
   {
     name: "CryptoWatch",
-    description: "A cryptocurrency converter app powered by Coin Gecko API.",
+    description: "A cryptocurrency converter app powered by Coin Gecko API with route testing and code coverage.",
     stack:
-      "HTML, CSS, JavaScript, NodeJS, Coin Gecko API, Tape, Supertest, TravisCI, Codecov, Heroku",
+      "HTML, CSS, JavaScript, Node.js, Coin Gecko API, Tape, Supertest, TravisCI, Codecov, Heroku",
     url: "https://cryptowatch.herokuapp.com/",
     gitUrl: "https://github.com/jc2820/week5-famk-backend-api",
     imgAlt: "A Screengrab of the Cryptowatch app",
@@ -77,7 +77,7 @@ const projectData = [
     name: "WTF: Where's the Food?",
     description:
       "Pick a country in the autocomplete search bar to reveal their national dish.",
-    stack: "HTML, CSS, JavaScript, NodeJS, Tape, NYC, TravisCI, Heroku",
+    stack: "HTML, CSS, JavaScript, Node.js, Tape, NYC, TravisCI, Heroku",
     url: "https://wtf-wheres-the-food.herokuapp.com/",
     gitUrl: "https://github.com/jc2820/week4-cikp-autocomplete",
     imgAlt: "A Screengrab of the WTF: Where's the food app",

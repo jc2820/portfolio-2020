@@ -19,9 +19,8 @@ const Card = styled.div`
   p {
     font-family: "Josefin Sans", sans-serif;
     color: #4e535f;
-    text-align: justify;
     line-height: 1.5;
-    margin: 0rem 1rem 1rem 0rem;
+    margin-bottom: 1rem;
   }
 
   a {
@@ -33,16 +32,14 @@ const Card = styled.div`
     text-decoration: underline;
   }
 
-  @media (min-width: 1024px) {
-     {
-      width: 22vw;
-      height: auto;
+  @media (min-width: 768px) {
+    width: 23vw;
+    height: auto;
 
-      img {
-        width: 22vw;
-        height: auto;
-      }
-    }
+    img {
+    width: 23vw;
+    height: auto;
+  }
   }
 `;
 
@@ -51,10 +48,12 @@ const StackItem = styled.p`
   color: #4e535f;
 `;
 
-const LinksBox = styled.div `
+const LinksBox = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: left;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
 `;
 
 export { Card, StackItem, LinksBox };

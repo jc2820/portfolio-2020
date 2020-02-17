@@ -8,4 +8,8 @@ text-align: none;
 line-height: 1.5;
 `;
 
-export { Bold };
+const Justify = styled.p`
+    text-align: justify;
+`;
+
+export { Bold, Justify };
