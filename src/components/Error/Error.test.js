@@ -7,4 +7,3 @@ it("renders the 404 message", () => {
   const heading = getByText(/404/i);
   expect(heading).toBeInTheDocument();
 });
-ß
